@@ -1,0 +1,1236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.image-form img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+.navbar-home{
+  background: rgba(0, 12, 122, 0.31);
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+}
+.english {
+    color: #ffffff;
+    text-align: left;
+    font: 16px "Jost", sans-serif;
+    margin-left: 60px;
+    cursor: pointer;
+  }
+.optn{
+    color: black;
+}
+select{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.mon1{
+    color: #ffffff;
+    text-align: center;
+    font: 14px "Jost", sans-serif;
+    margin-left: 100px;
+    margin-top: 11px;
+    width: 200px;
+}
+.mon2{
+    color: #ffffff;
+    text-align: center;
+    font: 14px "Jost", sans-serif;
+    margin-left: 100px;
+    margin-top: 11px;
+    width: 200px;
+}
+.mon3{
+    color: #ffffff;
+    text-align: center;
+    font: 14px "Jost", sans-serif;
+    margin-left: 100px;
+    margin-top: 11px;
+    width: 200px;
+}
+.button{
+    color: #ffffff;
+    text-align: center;
+    font: 14px "Jost", sans-serif;
+    margin-left: 40px;
+    background: rgba(78, 212, 255, 0.92);
+    width: 187px;
+    height: 43px;
+    cursor: pointer;
+
+}
+
+/*This is the first heading*/
+
+@media (max-width: 844px){ 
+    .image-form img {
+        width: 100%;
+        object-fit: cover;
+    
+      }
+      .navbar-home{
+        background: rgba(0, 12, 122, 0.31);
+        width: 100%;
+        height: 44px;
+      }
+      .english {
+        color: #ffffff;
+        font: 9px "Jost", sans-serif;
+        cursor: pointer;
+        position: absolute;
+        left: -55px;
+        top: 10px;
+        width: 15%;
+
+      }
+      .mon1{
+        color: #ffffff;
+        font: 6px "Jost", sans-serif;
+        position: absolute;
+        top: 3px;
+        left: -185px;
+        width: 100%;
+
+    }
+    .mon2{
+        color: #ffffff;
+        font: 8px "Jost", sans-serif;
+        position: absolute;
+        left: -106px;
+        width: 100%;
+
+    }
+    .mon3{
+        color: #ffffff;
+        font: 8px "Jost", sans-serif;
+        position: absolute;
+        left: -28px;
+        width: 100%;
+
+    }
+    .button{
+        color: #ffffff;
+        text-align: center;
+        font: 9px "Jost", sans-serif;
+        margin-left: 82%;
+        background: rgba(78, 212, 255, 0.92);
+        width: 70px;
+        height: 44px;
+        cursor: pointer;
+    
+    }
+}
+.nav-bar-2{
+    display: flex;
+}
+.logo-title{
+  color: #ffffff;
+  text-align: center;
+  font: 700 40px "Jost", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 85px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo-form img{
+    position: absolute;
+    left: 230px;
+    top: 80px;
+    width: 8%;
+    cursor: pointer;
+}
+.link-form{
+    display: flex;
+    position: absolute;
+    left: 604px;
+    top: 107px;
+    
+}
+ul{
+    flex: 1;
+    text-align: center;
+
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 40px;
+}
+ul li a{
+    color: #ffffff;
+    font: 600 20px "Jost", sans-serif;
+    text-decoration: none;
+    padding: 0 30px;
+}
+ul li a:hover{
+    color: rgba(78, 212, 255, 0.92);
+    border-bottom: 1px solid hsl(0, 0%, 70%);
+    border-radius: 30px;
+}
+.darkMode{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.span-1 {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.32);
+    border-width: 1px 0 0 0;
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 161px;
+  }
+
+  /*This is the second heading*/
+  @media (max-width: 844px){
+    .logo-title{
+        color: #ffffff;
+        font: 700 20px "Jost", sans-serif;       cursor: pointer;
+        text-decoration: none;
+        text-align: start;
+        margin-left: -105px;
+        margin-top: -30px;
+      }
+      .logo-form img{
+        width: 8%;
+        cursor: pointer;
+        margin-left: -165px;
+        margin-top: -20px;
+    }
+    
+    ul{
+        margin-top: -50px;
+        margin-left: -105vh;
+    }
+    nav ul li a{
+        font-size: 10px;
+        color: #ffffff;
+        padding: 0 10px;
+    }
+    .span-1 {
+        margin-top: -80px;
+      }
+      .darkMode{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        cursor: pointer;
+        position: absolute;
+        left: -180px;
+        top: -48px;
+    }
+  }
+.box {
+  background: rgba(1, 9, 81, 0.23);
+  border-radius: 10px;
+  width: 608px;
+  height: 504px;
+  position: absolute;
+  left: 70px;
+  top: 243px; 
+}
+.span-4 {
+  background: rgba(78, 212, 255, 0.92);
+  border-radius: 30px;
+  width: 269px;
+  height: 4px;
+  position: absolute;
+  left: 117px;
+  top: 301px;
+}
+.text1 {
+  text-align: left;
+  font: 700 40px "Jost", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+.text2 {
+  color: rgba(78, 212, 255, 0.92);
+  font: 700 40px "Jost", sans-serif;
+}
+.text3{
+  color: #ffffff;
+  font: 700 40px "Jost", sans-serif;
+}
+.text4 {
+  color: #bcbed3;
+  text-align: center;
+  font: 400 20px "Jost", sans-serif;
+  position: absolute;
+  top: 210px;
+}
+.btn1{
+  color: #ffffff;
+  text-align: center;
+  font: 600 20px "Jost", sans-serif;
+  position: absolute;
+  background: rgba(78, 212, 255, 0.58);
+  border-radius: 10px;
+  width: 211px;
+  height: 52px;
+  position: absolute;
+  left: 200px;
+  top: 380px;
+  border: none;
+  cursor: pointer;
+}
+.btn1:hover{
+    transform: translate(10%);
+    transition: 1s;
+}
+
+  /*first body*/
+  @media (max-width: 844px){
+    .box {
+        background: none;
+        margin-top: -220px;
+        margin-left: -40px;
+        width: 80%;
+        height: 250px;
+      }
+      .span-4 {
+      background-color: none;
+      }
+      .text1 {
+        text-align: center;
+        font: 700 40px "Jost", sans-serif;
+        position: absolute;
+        left: 25px;
+        margin-top: -15px;
+      }
+      .text3{
+        color: #ffffff;
+        font: 700 18px "Jost", sans-serif;
+      }
+      .text2 {
+        color: rgba(78, 212, 255, 0.92);
+        font: 700 18px "Jost", sans-serif;
+        
+      }
+      .text4 {
+        font: 400 10px "Jost", sans-serif;
+        text-align: center;
+        color: #c5c5c5;
+        margin-left: 10px;
+        margin-top: -85px;
+        width: 100%;
+      }
+      .btn1{
+        color: #ffffff;
+        text-align: center;
+        font: 600 8px "Jost", sans-serif;
+        position: absolute;
+        background: rgba(78, 212, 255, 0.58);
+        border-radius: 7px;
+        margin-left: -60px;
+        margin-top: -190px;
+        width: 51px;
+        height: 22px;
+        position: absolute;
+        border: none;
+        cursor: pointer;
+      }
+  }
+.boxes{
+  background: rgba(1, 9, 81, 0.23);
+  border-radius: 10px;
+  width: 579px;
+  height: auto;
+  padding-bottom: 30px;
+  position: absolute;
+  left: 691px;
+  top: 191px;
+}
+.text1-box2{
+  color: #ffffff;
+  text-align: left;
+  font: 600 36px "Jost", sans-serif;
+  position: relative;
+  text-align: center;
+}
+.text2-box2{
+    color: #ffffff;
+    text-align: left;
+    font: 400 18px "Jost", sans-serif;
+    text-align: center;
+}
+.travel-form input{
+    background: #ffffff;
+    border-radius: 10px;
+    width: 390px;
+    height: 55px;
+    border: none;
+    margin-left: 100px;
+    margin-top: 25px;
+    outline: none;
+    padding: 20px;
+    font: 18px "Jost", sans-serif;
+}
+::placeholder{
+    font: 18px "Jost", sans-serif;
+}
+.option-input{
+    background: #ffffff;
+    border-radius: 10px;
+    width: 390px;
+    height: 55px;
+    border: none;
+    margin-left: 100px;
+    margin-top: 50px;
+    outline: none;
+    padding: 20px;
+    font: 18px "Jost", sans-serif;
+}
+.btn2{
+color: #ffffff;
+  text-align: center;
+  font: 600 20px "Jost", sans-serif;
+  background: rgba(78, 212, 255, 0.58);
+  border-radius: 10px;
+  width: 211px;
+  height: 52px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.btn2:hover{
+    transform: translate(10%);
+    transition: 1s;
+}
+  /*second body*/
+  @media (max-width: 844px){
+    .boxes{
+        background-color:  rgba(78, 211, 255, 0.021);
+        border-radius: 10px;
+        width: 90%;
+        height: auto;
+        padding-bottom: 30px;
+        position: absolute;
+        transform: translateX(150px);
+        margin-left: -820px;
+        margin-top: 155px;
+        align-items: center;
+        box-shadow: 5px 2px 5px 2px rgba(0,0,0,0.15);
+      }
+      .text1-box2{
+        color: rgba(34, 197, 252, 0.58);
+        text-align: left;
+        font: 600 36px "Jost", sans-serif;
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .text2-box2{
+        color: #919191;
+        text-align: left;
+        font: 400 18px "Jost", sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+    .travel-form input{
+        width: 310px;
+        height: 45px;
+        margin-left: -20px;
+        margin-left: 20px;
+        border: 2px solid rgba(0, 0, 0, 0);
+        background-color: rgba(230, 230, 230, 0.856);
+    }
+    .travel-form input:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .travel-form input:focus{
+        border: 2px solid rgba(34, 197, 252, 0.58);
+        background-color: #fff;
+    }
+    .btn2{
+        color: #ffffff;
+          font: 600 18px "Jost", sans-serif;
+          background: rgba(34, 197, 252, 0.58);
+          border-radius: 10px;
+          width: 100px;
+          height: 52px;
+          border: none;
+          cursor: pointer;
+          margin-left: -10px;
+          margin-left: 140px;
+        }
+  }
+.inf-home{
+    display: flex;
+}
+.security-box {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 304px;
+    height: 224px;
+    box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 100px;
+    margin-top: -80px;
+  }
+.security-box img{
+    width: 55px;
+    border-radius: 100px;
+    margin-left: 125px;
+    align-items: center;
+}
+.Safe{
+    color: #20255e;
+    text-align: center;
+    font: 600 28px "Jost", sans-serif;
+    align-items: center;
+}
+.safe-par{
+    color: #6a6d8a;
+    text-align: center;
+    font: 400 15px "Jost", sans-serif;
+    width: 255px;
+    align-items: center;
+    margin-left: 20px;
+}
+.btn-link{
+  color: #10c5ff;
+  font: 400 18px "Jost", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 100px;
+}
+.security-box2 {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 304px;
+    height: 224px;
+    box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 80px;
+    margin-top: -80px;
+  }
+.security-box2 img{
+    width: 55px;
+    border-radius: 100px;
+    margin-left: 125px;
+    align-items: center;
+}
+.Safe2{
+    color: #20255e;
+    text-align: center;
+    font: 600 28px "Jost", sans-serif;
+    align-items: center;
+}
+.safe-par2{
+    color: #6a6d8a;
+    text-align: center;
+    font: 400 15px "Jost", sans-serif;
+    width: 255px;
+    align-items: center;
+    margin-left: 20px;
+}
+.btn-link2{
+  color: #10c5ff;
+  font: 400 18px "Jost", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 100px;
+}
+.security-box3 {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 304px;
+    height: 224px;
+    box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 163px;
+    margin-top: -80px;
+    background-image: url(image/bus-night-light-public.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text-safe{
+    color: #ffffff;
+    text-align: center;
+    font: 600 30px "Jost", sans-serif;
+}
+.btn3{
+    background: #ffffff;
+    border-radius: 10px;
+    width: 133px;
+    height: 46px;
+    border: none;
+    color: #20255e;
+    font: 600 20px "Jost", sans-serif;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.btn3:hover{
+    transform: translateY(10%);
+    transition: 1s;
+}
+  /*third body*/
+  @media (max-width: 844px){
+    .inf-home{
+        display: block;
+        margin-top: 800px;
+        margin-left: -60px;
+        justify-content: space-between;
+    }
+    .security-box2 {
+        background: #ffffff;
+        border-radius: 10px;
+        width: 304px;
+        height: 224px;
+        box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.25);
+        margin-top: 40px;
+        margin-left: 100px;
+      }
+    .security-box2 img{
+        width: 55px;
+        border-radius: 100px;
+        margin-left: 125px;
+        align-items: center;
+    }
+    .Safe2{
+        color: #20255e;
+        text-align: center;
+        font: 600 28px "Jost", sans-serif;
+        align-items: center;
+    }
+    .safe-par2{
+        color: #6a6d8a;
+        text-align: center;
+        font: 400 15px "Jost", sans-serif;
+        width: 255px;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .btn-link2{
+      color: #10c5ff;
+      font: 400 18px "Jost", sans-serif;
+      text-decoration: none;
+      text-align: center;
+      margin-left: 100px;
+    }
+    .security-box3 {
+        background: #ffffff;
+        border-radius: 10px;
+        width: 304px;
+        height: 224px;
+        box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.25);
+        margin-top: 40px;
+        margin-left: 100px;
+        background-image: url(image/bus-night-light-public.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .text-safe{
+        color: #ffffff;
+        text-align: center;
+        font: 600 30px "Jost", sans-serif;
+    }
+    .btn3{
+        background: #ffffff;
+        border-radius: 10px;
+        width: 133px;
+        height: 46px;
+        border: none;
+        color: #20255e;
+        font: 600 20px "Jost", sans-serif;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .btn3:hover{
+        transform: translateY(10%);
+        transition: 1s;
+    }
+  }
+.our-services {
+    color: #20255e;
+    text-align: center;
+    font: 500 20px "Jost", sans-serif;
+    margin-top: 150px;
+  }
+.span-service{
+    color: rgba(78, 212, 255, 0.92);
+    font: 600 48px "Jost", sans-serif;
+    text-align: center;
+}  
+.service-text{
+    font: 600 48px "Jost", sans-serif;
+    text-align: center;
+}
+.service-par{
+    color: #6a6d8a;
+    text-align: center;
+    font: 600 18px "Jost", sans-serif;
+}
+.service-box{
+    display: flex;
+}
+.service-box1{
+    border-radius: 15px;
+    width: 390px;
+    height: 354px;
+    background-image: url(image/16c387e5976a92d0183126ac0d5b494c.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+.airport-shuttle{
+    color: #ffffff;
+    text-align: center;
+    font: 600 32px "Jost", sans-serif;
+    margin-top: 200px;
+}
+.airport-par{
+  color: #ffffff;
+  text-align: center;
+  font: 400 18px "Jost", sans-serif;
+}
+.service-box1 img{
+    border-radius: 150px;
+    width: 60px;
+    margin-left: 170px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.service-box1 img:hover{
+    transform: translate(10%);
+    transition: 1s;
+}
+.service-box2{
+    border-radius: 15px;
+    width: 390px;
+    height: 354px;
+    background-image: url(image/t5jzprtvf1u.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+.service-box2 img{
+    border-radius: 150px;
+    width: 60px;
+    margin-left: 170px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.service-box2 img:hover{
+    transform: translate(10%);
+    transition: 1s;
+}
+.service-box3{
+    border-radius: 15px;
+    width: 390px;
+    height: 354px;
+    background-image: url(image/HD-wallpaper-taxi-evening-taxi-cars-taxi-yellow-sign-taxi-concepts-night.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+    margin-top: 130px;
+}
+.service-box3 img{
+    border-radius: 150px;
+    width: 60px;
+    margin-left: 170px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.service-box3 img:hover{
+    transform: translate(10%);
+    transition: 1s;
+}
+.our-clients {
+    color: #20255e;
+    text-align: center;
+    font: 600 20px "Jost", sans-serif;
+    margin-top: 150px;
+  }
+    /*third body*/
+    @media (max-width: 844px){
+        .our-services {
+            color: #20255e;
+            text-align: center;
+            font: 500 20px "Jost", sans-serif;
+          }
+          .service-box{
+            display: block;
+            margin-top: -70px;
+            margin-left: -20px;
+            align-items: center;
+        }
+        .service-box1{
+            border-radius: 15px;
+            width: 80%;
+            height: 354px;
+            background-image: url(image/16c387e5976a92d0183126ac0d5b494c.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .airport-shuttle {
+            color: #ffffff;
+            text-align: center;
+            font: 600 32px "Jost", sans-serif;
+            justify-content: center;
+            align-items: center;
+        }
+        .airport-par{
+          color: #ffffff;
+          text-align: center;
+          font: 400 18px "Jost", sans-serif;
+          position: absolute;
+          margin-left: 20px;
+          
+        }
+        .service-box1 img{
+            margin-top: -30px;
+            margin-top: 276px;
+            margin-left: -10px;
+            margin-left: 135px;
+        }
+        .service-box2{
+            border-radius: 15px;
+            width: 80%;
+            height: 354px;
+            background-image: url(image/t5jzprtvf1u.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-left: 50px;
+            margin-top: 130px;
+        }
+        .service-box2 img{
+            margin-top: -30px;
+            margin-top: 276px;
+            margin-left: -10px;
+            margin-left: 135px;
+        }
+        .service-box3{
+            border-radius: 15px;
+            width: 80%;
+            height: 354px;
+            background-image: url(image/HD-wallpaper-taxi-evening-taxi-cars-taxi-yellow-sign-taxi-concepts-night.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-left: 40px;
+            margin-top: 130px;
+        }
+        .service-box3 img{
+            margin-top: -30px;
+            margin-top: 276px;
+            margin-left: -10px;
+            margin-left: 135px;
+        }
+    }
+.client-form{
+    text-align: center;
+}
+.heading-span{
+    color: rgba(78, 212, 255, 0.92);
+     font: 600 48px "Jost", sans-serif;
+}
+.client-heading{
+    font: 600 48px "Jost", sans-serif;
+}
+.client-par{
+    color: #6a6d8a;
+    text-align: center;
+    font: 600 18px "Jost", sans-serif;
+}
+.client-box{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.client-box1{
+    background: #ffffff;
+    width: 304px;
+    height: 297px;
+    box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 75px;
+}
+.image-box1{
+    border-radius: 50%;
+    width: 122px;
+    margin-top: 10px;
+}
+.client-name{
+  color: #20255e;
+  text-align: center;
+  font: 600 18px "Jost", sans-serif;
+  margin-top: 14px;
+}
+.client-message{
+  color: #6a6d8a;
+  text-align: center;
+  font: 400 16px "Jost", sans-serif;
+  margin-top: 14px;
+}
+.stars-box1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.stars-box1 i{
+    color: #000;
+    width: 30px;
+    margin-top: 14px;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.star-color i{
+    color: #10c5ff;
+}
+.client-box2{
+    background: #ffffff;
+    width: 304px;
+    height: 297px;
+    box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 75px;
+    margin-left: 86px; 
+}
+.client-box3{
+    background: #ffffff;
+    width: 304px;
+    height: 297px;
+    box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 75px;
+    margin-left: 86px;
+}
+.left-icon{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -115px;
+    border: 1px solid #10c5ff;
+}
+.right-icon{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid #10c5ff;
+    margin-top: 120px;
+    margin-left: 185px;
+}
+.right-icon, .left-icon{
+    opacity: 0.7;
+    color: #10c5ff;
+    transition: all 0.3s ease;
+  }
+  .right-icon:hover, .left-icon:hover{
+    opacity: 1;
+    color: #6a6d8a;
+  }
+    /*third body*/
+    @media (max-width: 844px){
+        .heading-span{
+            color: rgba(78, 212, 255, 0.92);
+             font: 600 43px "Jost", sans-serif;
+        }
+        .client-heading{
+            font: 600 43px "Jost", sans-serif;
+        }
+        .client-par{
+            color: #6a6d8a;
+            text-align: center;
+            font: 600 16px "Jost", sans-serif;
+        }
+        .client-box{
+            display: block;
+            align-items: center;
+            margin-left: 50px;
+        }
+        .client-box2{
+            background: #ffffff;
+            width: 304px;
+            height: 297px;
+            box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.25);
+            margin-top: 75px; 
+            margin-left: -5px;
+        }
+        .client-box3{
+            background: #ffffff;
+            width: 304px;
+            height: 297px;
+            box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.25);
+            margin-top: 75px; 
+            margin-left: -5px;
+        }
+    }
+.footer-form{
+    background: rgba(78, 212, 255, 0.04);
+    width: 194vh;
+    height: 500px;
+    margin-top: 300px;
+    box-shadow: 4px 2px 16px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.about-footer{
+    position: absolute;
+}
+.about-footer2 {
+    color: #20255e;
+    font: 600 20px "Jost", sans-serif;
+    position: relative;
+    top: 60px;
+    left: 240px;
+  }
+.logo-title2{
+    color: #20255e;
+    font: 700 36px "Jost", sans-serif;
+    position: relative;
+    top: 50px;
+    left: 135px;
+
+}
+.logo-image{
+    width: 93px;
+    position: relative;
+    left: 238px;
+    top: 108px;
+}
+.footer-discription{
+    color: #6a6d8a;
+    text-align: center;
+    font: 400 16px "Jost", sans-serif;
+    position: relative;
+    width: 341px;
+    left: 115px;
+    top: 128px;
+}
+.footer-input{
+    background: #ffffff;
+    border-radius: 25px;
+    border: 2px solid #45cffd;
+    width: 355px;
+    height: 46px;
+    position: relative;
+    left: 120px;
+    top: 158px;
+    outline: none;
+    padding: 20px;
+    color: #6a6d8a;
+    font: 500 18px "Jost", sans-serif;
+}
+.send{
+    background: rgba(18, 156, 202, 0.58);
+    border-radius: 25px;
+    width: 71px;
+    height: 31px;
+    position: relative;
+    border: none;
+    top: 158px;
+    left: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    font: 600 16px "Jost", sans-serif;
+}
+.send:hover{
+    background-color: #20255e;
+}
+.link-footer{
+    position: absolute;
+}
+.company{
+    color: #20255e;
+    font: 600 20px "Jost", sans-serif;
+    position: relative;
+    left: 532px;
+    top: 60px;
+}
+span li a{
+    position: relative;
+    left: 532px;
+    top: 80px;
+    text-decoration: none;
+    font: 500 18px "Jost", sans-serif;
+    color: #0c124e;
+}
+span li a:hover{
+    color: #017ea8;
+}
+.office-footer{
+    position: absolute;
+}
+.atlas-office{
+    color: #20255e;
+    font: 600 20px "Jost", sans-serif;
+    position: relative;
+    left: 696px;
+    top: 60px;
+}
+.office-par{
+    color: #454868;
+    font: 400 16px "Jost", sans-serif;
+    position: relative;
+    width: 267px;
+    left: 696px;
+    top: 95px;
+}
+.working-footer{
+    position: absolute;
+}
+.working-hours{
+    color: #20255e;
+    font: 600 20px "Jost", sans-serif;
+    position: relative;
+    left: 145vh;
+    top: 60px;
+}
+.working-par{
+    color: #454868;
+    font: 400 16px "Jost", sans-serif;
+    position: relative;
+    width: 304px;
+    left: 145vh;
+    top: 95px;
+}
+.footer-icon1{
+    position: relative;
+    width: 304px;
+    left: 140vh;
+    top: 100px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px; 
+    color: white;
+    cursor: pointer;
+}
+.footer-icon1:hover{
+    transform: translate(10%);
+
+}
+.footer-icon2{
+    position: relative;
+    width: 304px;
+    left: 142vh;
+    top: 100px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, 
+    #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px; 
+    color: white;
+    cursor: pointer;
+}
+.footer-icon2:hover{
+    transform: translate(10%);
+    
+}
+.footer-icon3{
+    position: relative;
+    width: 304px;
+    left: 144vh;
+    top: 100px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #03A9F4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px; 
+    color: white;
+    cursor: pointer;
+}
+.footer-icon3:hover{
+    transform: translate(10%);
+    
+}
+.footer-icon4{
+    position: relative;
+    width: 304px;
+    left: 146vh;
+    top: 100px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #0077B5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px; 
+    color: white;
+    cursor: pointer;
+}
+.footer-icon4:hover{
+    transform: translate(10%);
+    
+}
+    /*third body*/
+    @media (max-width: 844px){
+        .footer-form{
+            background: rgba(78, 212, 255, 0.04);
+            width: 100%;
+            height: 170vh;
+            display: block;
+        }
+        .about-footer{
+            position: absolute;
+            margin-left: -100px;
+        }
+        .link-footer{
+        display: none;
+        }
+        .office-footer{
+            position: absolute;
+            margin-top: 58vh;
+            margin-left: -97vh;
+        }
+        .working-footer{
+            position: absolute;
+            margin-top: 105vh;
+            margin-left: -141vh;
+        }
+        .footer-icon1{
+            position: relative;
+            margin-left: 50px;
+        }
+        .logo-title2{
+            color: #20255e;
+            font: 700 36px "Jost", sans-serif;
+            position: relative;
+            top: 50px;
+            left: 210px;
+        
+        }
+        .logo-image{
+            width: 93px;
+            position: relative;
+            left: 310px;
+          
+    }
+}
+
+
+
+
+
+
